@@ -23,15 +23,16 @@ Global Styles
 
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    padding: 12vh 0 10%;
+    padding: 12% 0 10%;
     position: relative;
     z-index: 1;
-    overflow-x: hidden;
     font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
 }
 
 body::before,
@@ -52,12 +53,7 @@ body::before{
 }
 
 body::after{
-    min-height: 40%;
-    bottom: 0;
-    right: -50%;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    background: hsla(276, 100%, 81%, .25);
+    display: none;
 }
 
 body,
@@ -320,6 +316,18 @@ body,
     color: var(--primary-clr-paragraph);
 }
 
+.attribution{
+    padding: .5em;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+.attribution a{
+    color: crimson;
+    text-decoration: none;
+}
+
 @media only screen and (min-width: 400px){
     .app-container{
         max-width: 450px;
@@ -330,6 +338,9 @@ body,
     
     body{
         padding: 75px 15vw 50px;
+    }
+    
+    main{
         display: flex;
         align-items: center;
     }
@@ -344,8 +355,12 @@ body,
     }
     
     body::after{
-        min-height: 80vh;
+        min-height: 90vh;
+        bottom: 0;
         right: -25%;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        background: hsla(276, 100%, 81%, .25);
     }
     
     .app-container{
@@ -378,4 +393,8 @@ body,
         text-align: left;
     }
 
+    .attribution{
+        margin-top: 75px;
+        text-align: center;
+    }
 }

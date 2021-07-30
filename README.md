@@ -25,11 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
-
+![Desktop](https://user-images.githubusercontent.com/84665360/127641778-ec036599-c06c-4e95-ba3c-0866933b8597.png)
 
 ### Links
 
-- [My Solution](https://your-solution-url.com)
+- [My Solution](https://www.frontendmentor.io/solutions/chat-app-css-illustration-using-flexbox-CeKumRtim)
 - [Live Site Demo](https://zaidmarrie.github.io/chat-app-css-illustration-master/)
 
 ## My process
